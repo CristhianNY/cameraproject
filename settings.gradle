@@ -1,0 +1,7 @@
+include ':feature-home'
+include ':feature-login'
+include ':resources'
+include ':domain'
+include ':data'
+include ':app'
+rootProject.name = "My Application"
