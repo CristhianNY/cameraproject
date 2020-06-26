@@ -26,12 +26,15 @@ allprojects {
     ext {
         koin_version = '2.1.5'
         prioridades_features = [
-                login    : project(':feature-login')
+                login    : project(':feature-login'),
+                home                        : project(':feature-home'),
+                camera                        : project(':feature-custom-camera')
         ]
 
         app_features = [
                 landing                     : project(':feature-login'),
-                home                        : project(':feature-home')
+                home                        : project(':feature-home'),
+                camera                        : project(':feature-custom-camera')
         ]
 
         feature = [
